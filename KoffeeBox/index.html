@@ -6,24 +6,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="museumOfCandy.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Museum of Candy</title>
 </head>
 
 <body>
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-        <a href="#" class="navbar-brand">CANDY</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
+        <a href="#" class="navbar-brand">Koffee Box</a>
+        <button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navLinks"
+            aria-label="Toggle Navigation">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+            <span class="sr-only">Toggle navigation</span>
         </button>
         <div class="collapse navbar-collapse" id="navLinks">
             <ul class="navbar-nav">
@@ -34,7 +36,13 @@
                     <a href="#" class="nav-link">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">TICKETS</a>
+                    <a href="#" class="nav-link">MENU</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">STORES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">BLOG</a>
                 </li>
             </ul>
         </div>
@@ -44,17 +52,11 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
-                    <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-                    <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1 class="text-center">Koffee BOX</h1>
                 </div>
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid" src="mus-images/hand2.png" alt="">
+                <img class="img-fluid text-center" src="images/koffee-box-logo-prt.png" alt="">
             </div>
         </div>
     </section>
@@ -145,16 +147,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-            });
-        });
-    </script>
-
-
+    <script src="koffeeScript.js"></script>
 </body>
 
 </html>
