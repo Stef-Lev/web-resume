@@ -1,0 +1,156 @@
+ 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i&display=swap');
+ 
+body {
+     font-size: 28px;
+     margin: auto;
+     background-color: rgb(5, 73, 98);
+     font-family: 'roboto', sans-serif;
+}
+@media screen and (min-width: 701px) {
+    #content {
+      font-size: 1em;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    #intro {
+        font-size: 1em;  
+    }
+
+
+  }
+@media screen and (max-width: 701px) {
+    #content {
+      font-size: 0.5em;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+    #intro {
+        font-size: 0.5em;  
+    }
+  }
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0px;
+    text-shadow: 3px 3px rgb(16, 38, 46);
+}
+h2 {
+    font-size: 2.2em;
+    margin: 10px 0px;
+    text-shadow: 3px 3px rgb(16, 38, 46);
+}
+h3 {
+    font-size: 2.0em;
+    color: rgb(5, 73, 98) ;
+    margin: 70px 0px 40px 0px;
+}
+h4 {
+    font-size: 1.8em;
+    color: rgb(5, 73, 98) ;
+    margin: 60px 0px 30px 0px;
+}
+h5 {
+    font-size: 1.5em;
+    margin: 40px 0px 20px 0px;
+
+}
+h6 {
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 30px 0px 20px 0px;
+}
+
+.parallax {
+    background-image: url("https://images.pexels.com/photos/209692/pexels-photo-209692.jpeg");
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+#myphoto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: -150px;   
+}
+#content {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-image: url(cvbackground.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#intro {
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: -150px;
+}
+
+hr {
+    margin: 40px 0px;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: rgb(5, 73, 98);
+    background-image: linear-gradient(to right, #ccc,rgb(5, 73, 98), #ccc);
+}
+article i {
+    padding-right: 5px;
+    color: rgb(5, 73, 98);
+}
+p i {
+    padding-right: 5px;
+    color: rgb(5, 73, 98);
+}
+a:link {
+    color: rgb(41, 90, 119);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(226, 178, 123);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(48, 199, 245);
+  }
+  
+  /* selected link */
+  a:active {
+    color:  rgb(1, 38, 59);
+  }
+  
+  table {
+    border-collapse: collapse;
+  }  
+  table, th, td {
+    padding: 5px 5px;
+    text-align: left;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  th {
+    background-color: rgb(5, 73, 98);
+    color: white;
+  }
+ 
+ 
