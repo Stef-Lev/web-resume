@@ -84,7 +84,7 @@ h6 {
 #content {
     margin-left: 2.5%;
     margin-right: 2.5%;
-    background-image: url(cvbackground.jpg);
+    background-image: url(./files/cvbackground.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
