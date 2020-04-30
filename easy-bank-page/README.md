@@ -1,5 +1,5 @@
 # Easy Bank Frontend Mentor Challenge
 
-![(./images/easy-bank-page.png)]
+![alt text](https://github.com/Stef-Lev/personal-projects/blob/master/easy-bank-page/images/easy-bank-page.png)
 
-Click [here](https://www.stefanosleventis.com/easy-bank-page/index.html) to preview the page.
+Click [here](https://www.stefanosleventis.com/easy-bank-page/) to preview the page.
