@@ -1,4 +1,4 @@
-# Easy Bank Frontend Mentor Challenge
+# Easy Bank Page
 
 ![alt text](https://github.com/Stef-Lev/personal-projects/blob/master/easy-bank-page/images/easy-bank-page.png)
 
