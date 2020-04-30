@@ -1,4 +1,4 @@
-# Easy Bank Page
+# EasyBank Page
 
 Click [here](https://www.stefanosleventis.com/easy-bank-page/) to preview the page.
 
