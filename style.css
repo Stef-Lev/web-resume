@@ -237,12 +237,7 @@ Work experience
 #work-exp h2 {
     color: rgb(5, 73, 98);
 }
-.experience {
-    border: 1px solid rgb(170, 170, 170);
-    border-radius: 10px;
-    margin-bottom: 16px;
-    padding: 16px 8px;
-}
+
 
 /*---------
 Education
@@ -456,6 +451,12 @@ Contact
     color: tomato;
 }
 
+.experience {
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 10px;
+    margin-bottom: 16px;
+    padding: 16px 8px;
+}
 
 /* Media Queries */
 
