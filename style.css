@@ -237,7 +237,12 @@ Work experience
 #work-exp h2 {
     color: rgb(5, 73, 98);
 }
-
+.experience {
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 10px;
+    margin-bottom: 16px;
+    padding: 16px 8px;
+}
 
 /*---------
 Education
@@ -309,31 +314,31 @@ Skills
 /* Skills spans filled here*/
 
 #html{
-    width: 48%;
-}
-#css{
-    width: 39%;
+    width: 88%;
 }
 #js{
-    width: 17%;
+    width: 60%;
 }
-#bootstrap{
-    width: 24%;
+#sass{
+    width: 40%;
 }
-#seo{
-    width: 13%;
-}
-#analytics{
-    width: 55%;
-}
-#photoshop{
-    width: 62%;
+#react{
+    width: 52%;
 }
 #git{
     width: 33%;
 }
+#node{
+    width: 45%;
+}
+#sql{
+    width: 35%;
+}
+#mongo{
+    width: 45%;
+}
 #office{
-    width: 91%;
+    width: 90%;
 }
 #greek{
     width: 100%;
