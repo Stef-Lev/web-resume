@@ -309,28 +309,28 @@ Skills
 /* Skills spans filled here*/
 
 #html{
-    width: 88%;
+    width: 100%;
 }
 #js{
-    width: 60%;
+    width: 82%;
 }
 #sass{
-    width: 40%;
+    width: 75%;
 }
 #react{
-    width: 52%;
+    width: 70%;
 }
 #git{
-    width: 33%;
+    width: 55%;
 }
 #node{
     width: 45%;
 }
 #sql{
-    width: 35%;
+    width: 30%;
 }
 #mongo{
-    width: 45%;
+    width: 58%;
 }
 #office{
     width: 90%;
