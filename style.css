@@ -195,7 +195,9 @@ button.navbar-toggler.collapsed {
 button.navbar-toggler {
     padding: 12px 0 12px 0;
 }
-
+.intro-paragraph {
+    font-size: 1.4rem;
+}
 
 /*---------
  About me
@@ -467,7 +469,7 @@ Contact
     }
     
     .intro-paragraph {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     p {
         font-size: 1.1rem;
